@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Subtract = () => {
-  return <div>Subtract</div>;
+export const Subtract = ({ handleOnClick }) => {
+  return <button onClick={() => handleOnClick("-")}>-</button>;
 };

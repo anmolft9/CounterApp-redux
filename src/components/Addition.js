@@ -1,9 +1,5 @@
 import React from "react";
 
-export const Addition = () => {
-  return (
-    <div>
-      <button>+</button>
-    </div>
-  );
+export const Addition = ({ handleOnClick }) => {
+  return <button onClick={() => handleOnClick("+")}>+</button>;
 };

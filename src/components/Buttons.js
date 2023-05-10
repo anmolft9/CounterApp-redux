@@ -2,11 +2,11 @@ import React from "react";
 import { Addition } from "./Addition";
 import { Subtract } from "./Subtract";
 
-export const Buttons = () => {
+export const Buttons = ({ handleOnClick }) => {
   return (
     <>
-      <Subtract />
-      <Addition />
+      <Subtract handleOnClick={handleOnClick} />
+      <Addition handleOnClick={handleOnClick} />
     </>
   );
 };

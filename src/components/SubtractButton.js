@@ -1,9 +1,9 @@
 import React from "react";
 
-export const SubtractButton = ({ setCounter }) => {
+export const SubtractButton = ({ onBtnClick }) => {
   return (
     <div>
-      <button onClick={() => setCounter("-")}>-</button>
+      <button onClick={() => onBtnClick("-")}>-</button>
     </div>
   );
 };

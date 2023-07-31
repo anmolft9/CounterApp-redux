@@ -10,7 +10,7 @@ function App() {
   };
   return (
     <div className="App">
-      <Buttons setCounter={onBtnClick} />
+      <Buttons onBtnClick={onBtnClick} />
       {/* <button onClick={() => setCounter(counter - 1)}>-</button> */}
       <Display counter={counter} />
       {/* <button onClick={() => setCounter(counter + 1)}>+</button> */}

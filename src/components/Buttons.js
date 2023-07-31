@@ -2,11 +2,11 @@ import React from "react";
 import { AddButton } from "./AddButton";
 import { SubtractButton } from "./SubtractButton";
 
-export const Buttons = ({ onBtnClick }) => {
+export const Buttons = () => {
   return (
     <div>
-      <AddButton onBtnClick={onBtnClick} />
-      <SubtractButton onBtnClick={onBtnClick} />
+      <AddButton />
+      <SubtractButton />
     </div>
   );
 };
